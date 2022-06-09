@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento - align content</title>
+    <style>
+        .container{
+            height: 350px;
+            max-width: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            background-color: blue;
+
+        }
+
+        .item{
+            background-color: orangered;
+            margin: 5px;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 3px solid black;
+
+        }
+
+        .titulos{
+            text-align: center;
+            font-size: large;
+            color: black ;
+            font-style: oblique;
+            background-color: bisque;
+            border: 1px solid green;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+        
+        .start{
+            align-content: flex-start;
+        }
+
+        .end{
+            align-content: flex-end;
+        }
+
+        .between{
+            align-content: space-between;
+        }
+
+        .around{
+            align-content: space-around;
+        }
+
+    </style>
+</head>
+<h1>Fundamento - align content</h1>
+<body>
+    <p class="titulos">stretch</p>
+    <div class="container stretch">
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram </div>
+        <div class="item">exercicio sobre as estrutras align-content</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os comandos centert</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+    </div>
+    
+    <p class="titulos">center</p>
+    <div class="container center">
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram </div>
+        <div class="item">exercicio sobre as estrutras align-content</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os comandos centert</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+    </div>
+     
+    <p class="titulos">flex-start</p>
+    <div class="container start">
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram </div>
+        <div class="item">exercicio sobre as estrutras align-content</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os comandos centert</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+    </div>
+
+    <p class="titulos">flex-end</p>
+    <div class="container end">
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram </div>
+        <div class="item">exercicio sobre as estrutras align-content</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os comandos centert</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+    </div>
+
+    <p class="titulos">space-between</p>
+    <div class="container between">
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram </div>
+        <div class="item">exercicio sobre as estrutras align-content</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os comandos centert</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+    </div>
+
+    <p class="titulos">space-aroud</p>
+    <div class="container around">
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram </div>
+        <div class="item">exercicio sobre as estrutras align-content</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os comandos centert</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+        <div class="item">exercicio sobre as estrutras align-content onde foram exercitados os</div>
+    </div>
+</body>
+</html>
